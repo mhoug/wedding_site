@@ -1,0 +1,232 @@
+extends layout
+
+block content
+
+  header#fh5co-header.fh5co-cover(role='banner', style='background-image:url(images/Engagement-8.jpg);', data-stellar-background-ratio='0.5')
+    .overlay
+    .container
+      .row
+        .col-md-8.col-md-offset-2.text-center
+          .display-t
+            .display-tc.animate-box(data-animate-effect='fadeIn')
+              h1 James & Teresa
+              h2 Come celebrate with us!
+              .simply-countdown.simply-countdown-one
+              p
+                a.btn.btn-default.btn-sm(href='/event_file/James_and_Teresas_Wedding.ics') Save the date
+
+  #fh5co-event.fh5co-bg(style='background-image:url(images/gradient.jpg);')
+    .overlay
+    .container
+      .row
+        .col-md-8.col-md-offset-2.text-center.fh5co-heading.animate-box
+          span Our Special Events
+          h2 Wedding Events
+      .row
+        .display-t
+          .display-tc
+            .col-md-10.col-md-offset-1
+              .col-md-12.text-center
+                .event-wrap.animate-box
+                  h3 Main Ceremony
+                  .event-col
+                    i.icon-clock
+                    span 4:00 PM
+                  .event-col
+                    i.icon-calendar
+                    span Saturday 4
+                    span November, 2017
+                  p
+                    | Santee Conference Center
+                    | 1737 Bass Dr.
+                    | Santee, SC 29142
+
+                    | Time: 4:00 P.M.
+
+                    | Date: November 4, 2017
+
+                    | Reception will be held in the same location and will follow immediately after wedding ceremony
+
+              //- .col-md-6.col-sm-6.text-center
+              //-   .event-wrap.animate-box
+              //-     h3 Reception
+              //-     .event-col
+              //-       i.icon-clock
+              //-       span 7:00 PM
+              //-       span 12:00 AM
+              //-     .event-col
+              //-       i.icon-calendar
+              //-       span Monday 28
+              //-       span November, 2016
+              //-     p
+              //-       | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+  #fh5co-couple-story
+    .container
+      .row
+        .col-md-8.col-md-offset-2.text-center.fh5co-heading.animate-box
+          span We Love Each Other
+          h2 Our Story
+          p
+            | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+      .row
+        .col-md-12.col-md-offset-0
+          ul.timeline.animate-box
+            li.animate-box
+              .timeline-badge(style='background-image:url(images/couple-1.jpg);')
+              .timeline-panel
+                .timeline-heading
+                  h3.timeline-title First We Meet
+                  span.date December 25, 2015
+                .timeline-body
+                  p
+                    | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+            li.timeline-inverted.animate-box
+              .timeline-badge(style='background-image:url(images/couple-2.jpg);')
+              .timeline-panel
+                .timeline-heading
+                  h3.timeline-title First Date
+                  span.date December 28, 2015
+                .timeline-body
+                  p
+                    | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+            li.animate-box
+              .timeline-badge(style='background-image:url(images/couple-3.jpg);')
+              .timeline-panel
+                .timeline-heading
+                  h3.timeline-title In A Relationship
+                  span.date January 1, 2016
+                .timeline-body
+                  p
+                    | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+  #fh5co-gallery.fh5co-section-gray
+    .container
+      .row
+        .col-md-8.col-md-offset-2.text-center.fh5co-heading.animate-box
+          span Our Memories
+          h2 Wedding Gallery
+          p
+            | Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+      .row.row-bottom-padded-md
+        .col-md-12
+          ul#fh5co-gallery-list
+            li.one-third.animate-box(data-animate-effect='fadeIn', style='background-image: url(images/gallery-1.jpg); ')
+              a(href='images/gallery-1.jpg')
+                .case-studies-summary
+                  span 14 Photos
+                  h2 Two Glas of Juice
+            li.one-third.animate-box(data-animate-effect='fadeIn', style='background-image: url(images/gallery-2.jpg); ')
+              a.color-2(href='#')
+                .case-studies-summary
+                  span 30 Photos
+                  h2 Timer starts now!
+            li.one-third.animate-box(data-animate-effect='fadeIn', style='background-image: url(images/gallery-3.jpg); ')
+              a.color-3(href='#')
+                .case-studies-summary
+                  span 90 Photos
+                  h2 Beautiful sunset
+            li.one-third.animate-box(data-animate-effect='fadeIn', style='background-image: url(images/gallery-4.jpg); ')
+              a.color-4(href='#')
+                .case-studies-summary
+                  span 12 Photos
+                  h2 Company's Conference Room
+            li.one-third.animate-box(data-animate-effect='fadeIn', style='background-image: url(images/gallery-5.jpg); ')
+              a.color-3(href='#')
+                .case-studies-summary
+                  span 50 Photos
+                  h2 Useful baskets
+            li.one-third.animate-box(data-animate-effect='fadeIn', style='background-image: url(images/gallery-6.jpg); ')
+              a.color-4(href='#')
+                .case-studies-summary
+                  span 45 Photos
+                  h2 Skater man in the road
+            li.one-third.animate-box(data-animate-effect='fadeIn', style='background-image: url(images/gallery-7.jpg); ')
+              a.color-4(href='#')
+                .case-studies-summary
+                  span 35 Photos
+                  h2 Two Glas of Juice
+            li.one-third.animate-box(data-animate-effect='fadeIn', style='background-image: url(images/gallery-8.jpg); ')
+              a.color-5(href='#')
+                .case-studies-summary
+                  span 90 Photos
+                  h2 Timer starts now!
+            li.one-third.animate-box(data-animate-effect='fadeIn', style='background-image: url(images/gallery-9.jpg); ')
+              a.color-6(href='#')
+                .case-studies-summary
+                  span 56 Photos
+                  h2 Beautiful sunset
+  #fh5co-testimonial
+    .container
+      .row
+        .row.animate-box
+          .col-md-8.col-md-offset-2.text-center.fh5co-heading
+            span Best Wishes
+            h2 Friends Wishes
+        .row
+          .col-md-12.animate-box
+            .wrap-testimony
+              .owl-carousel-fullwidth
+                .item
+                  .testimony-slide.active.text-center
+                    figure
+                      img(src='images/couple-1.jpg', alt='user')
+                    span
+                      | John Doe, via
+                      a.twitter(href='#') Twitter
+                    blockquote
+                      p
+                        | "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+                .item
+                  .testimony-slide.active.text-center
+                    figure
+                      img(src='images/couple-2.jpg', alt='user')
+                    span
+                      | John Doe, via
+                      a.twitter(href='#') Twitter
+                    blockquote
+                      p
+                        | "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."
+                .item
+                  .testimony-slide.active.text-center
+                    figure
+                      img(src='images/couple-3.jpg', alt='user')
+                    span
+                      | John Doe, via
+                      a.twitter(href='#') Twitter
+                    blockquote
+                      p
+                        | "Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+  #fh5co-services.fh5co-section-gray
+    .container
+      .row.animate-box
+        .col-md-8.col-md-offset-2.text-center.fh5co-heading
+          h2 We Offer Services
+          p
+            | Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.
+      .row
+        .col-md-6
+          .feature-left.animate-box(data-animate-effect='fadeInLeft')
+            span.icon
+              i.icon-calendar
+            .feature-copy
+              h3 We Organized Events
+              p
+                | Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.
+          .feature-left.animate-box(data-animate-effect='fadeInLeft')
+            span.icon
+              i.icon-image
+            .feature-copy
+              h3 Photoshoot
+              p
+                | Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.
+          .feature-left.animate-box(data-animate-effect='fadeInLeft')
+            span.icon
+              i.icon-video
+            .feature-copy
+              h3 Video Editing
+              p
+                | Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.
+        .col-md-6.animate-box
+          .fh5co-video.fh5co-bg(style='background-image: url(images/img_bg_3.jpg); ')
+            a.popup-vimeo(href='https://vimeo.com/channels/staffpicks/93951774')
+              i.icon-video2
+            .overlay
